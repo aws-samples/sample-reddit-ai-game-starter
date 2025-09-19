@@ -21,7 +21,7 @@ Kiro is an agentic IDE that helps you do your best work with AI-powered developm
 
 ---
 
-## 🎮 Using Kiro for Game Development
+## 🎮 Kiro Usage Example
 
 ### Step 1: Open Your Devvit Project
 
@@ -34,16 +34,16 @@ kiro .
 
 Or use **File > Open Folder** to select your project directory.
 
+![Open Project](../assets/images/kiro-open-project.png)
+
 **Note:** Kiro may ask if you trust the authors of the files in this folder. Click "Yes" or "Trust" to proceed.
 
 ![Trust Prompt](../assets/images/kiro-trust-prompt.png)
 
-![Open Project](../assets/images/kiro-open-project.png)
-
 ### Step 2: Create Your Game
 
-1. Click the **Kiro Ghost icon** in the activity bar (left sidebar)
-2. This opens Kiro's features panel with chat interface
+1. Kiro's features panel with chat interface opens automatically
+2. If you don't see it, click the **Kiro Ghost icon** in the activity bar (left sidebar)
 
 ![Kiro Panel](../assets/images/kiro-panel-overview.png)
 
@@ -58,7 +58,7 @@ Kiro offers two approaches for building features:
 - Formal requirements, design, and task phases
 - Best for complex features requiring detailed planning
 
-**Workflow:**
+**Steps:**
 ```
 1. Select the Vibe option in the panel
 2. Enter your prompt: 
@@ -101,24 +101,11 @@ Open the provided URL in your browser to play your Tetris-like game:
 
 ---
 
-## 🎮 Game Development Examples
+## 🎮 Using Kiro for Game Development
 
-### Building Different Game Types
+### 🏗️ Build Complete Game
 
-**Memory Card Game:**
-```
-Modify this Reddit Devvit app to create a memory card matching game with the following functionality:
-
-- 4x4 grid of cards with flip animations
-- Score tracking and timer
-- Win condition with celebration
-- Reddit username integration
-- Mobile-responsive design
-
-Note: Don't change the app's name. Do NOT run any build commands or npm scripts, I will handle all building and deployment.
-```
-
-**Clicker Game:**
+**Example Prompt:**
 ```
 Modify this Reddit Devvit app to create a clicker game with the following functionality:
 
@@ -130,6 +117,8 @@ Modify this Reddit Devvit app to create a clicker game with the following functi
 
 Note: Don't change the app's name. Do NOT run any build commands or npm scripts, I will handle all building and deployment.
 ```
+
+💡 **Want more game ideas?** Check out [Game Examples & Templates](game-examples.md) for ready-to-use prompts.
 
 ---
 
