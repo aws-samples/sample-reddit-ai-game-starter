@@ -21,7 +21,7 @@ Use AI-powered development tools to create your game without manual coding:
 **Amazon Q Developer** - Available as CLI or VS Code extension
 - 📖 [Amazon Q Setup Guide](docs/amazon-q-setup.md)
 
-**Kiro** - AI game development assistant  
+**Kiro** - Agentic IDE for development  
 - 📖 [Kiro Setup Guide](docs/amazon-kiro-setup.md)
 
 ### Step 3: Test Your Game
@@ -50,7 +50,7 @@ Use the automatically generated subreddit URL to test your game:
 
 ### AI Development Tools
 - [Amazon Q Developer](https://aws.amazon.com/q/developer/)
-- [Kiro Console](https://kiro.dev)
+- [Kiro](https://kiro.dev)
 
 ---
 

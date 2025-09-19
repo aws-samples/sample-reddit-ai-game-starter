@@ -2,6 +2,8 @@
 
 Amazon Q Developer provides AI assistance for building games through two interfaces with different capabilities.
 
+**Prerequisites:** You should have already created a Devvit project using the templates from [Step 1](step-01-devvit-templates.md).
+
 ## Choose Your Interface
 
 ### Amazon Q CLI (Recommended for Advanced Workflows)
@@ -101,13 +103,15 @@ Open the provided URL in your browser to play your Tetris-like game:
 
 **Example Prompt:**
 ```
-Help me build a complete clicker game for Reddit's Devvit platform with:
+Update the existing Devvit project: build a complete clicker game with:
 - Main game interface with clickable button
 - Score display and tracking
 - Upgrade system (auto-clicker, multipliers)
 - Reddit username integration
 - Mobile-responsive design
 ```
+
+💡 **Important:** Always start prompts with "Update the existing Devvit project" since you're working with a template, not building from scratch.
 
 💡 **Want more game ideas?** Check out [Game Examples & Templates](game-examples.md) for ready-to-use prompts.
 
@@ -135,7 +139,7 @@ Can you help me identify and fix the issue?
 
 **Example Prompt:**
 ```
-Help me integrate Reddit user data into my game leaderboard using Devvit context.
+Update the existing Devvit project: integrate Reddit user data into my game leaderboard using Devvit context.
 I need to:
 - Get current user ID from context.userId
 - Store scores in Redis
@@ -147,7 +151,7 @@ I need to:
 
 **Example Prompt:**
 ```
-Generate CSS for a retro-style game interface with:
+Update the existing Devvit project: generate CSS for a retro-style game interface with:
 - Neon colors (#00ff00, #ff0080)
 - Pixel-perfect buttons with hover effects
 - Animated score counters

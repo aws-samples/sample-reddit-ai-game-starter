@@ -13,13 +13,6 @@ npm install
 npm run dev
 ```
 
-**Port already in use:**
-```bash
-# Find and kill process using the port
-lsof -ti:3000 | xargs kill -9
-npm run dev
-```
-
 ### Browser Issues
 
 **Game not loading:**
@@ -36,8 +29,8 @@ npm run dev
 
 ### Community Support
 
-- **r/redditdev**: Post questions with [Devvit] tag
-- **Devvit Discord**: Real-time help from community
+- **[r/redditdev](https://reddit.com/r/redditdev)**: Post questions with [Devvit] tag
+- **[Devvit Discord](https://discord.gg/devvit)**: Real-time help from community
 
 ### When Asking for Help
 
