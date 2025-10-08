@@ -21,6 +21,41 @@ Kiro is an agentic IDE that helps you do your best work with AI-powered developm
 
 ---
 
+## 🎯 Kiro Steering Docs for Devvit Development
+
+**Note**: Steering docs are already included in Reddit's Devvit templates, so this step is **optional and for reference only**. This section is for developers interested in understanding how Kiro uses steering docs to maintain consistent development patterns.
+
+### What Are Steering Docs?
+
+Kiro uses "steering docs" to maintain persistent knowledge about your project. These markdown files in `.kiro/steering/` ensure Kiro consistently follows Devvit patterns without needing to explain them in every conversation.
+
+### What This Repository Provides
+
+This repository includes pre-configured steering docs optimized for Reddit Devvit game development:
+
+- **`general-best-practices.md`**: Development focus, scope management, test cleanup, Devvit workflow rules
+- **`devvit-platform-guide.md`**: Reddit Devvit platform architecture, capabilities, limitations, and what to build
+
+Both files are configured with `inclusion: always` (default), meaning Kiro automatically loads them in every interaction.
+
+### What Kiro Will Automatically Do
+
+With steering docs in place, Kiro will:
+- ✅ Never change your project name (critical for Devvit deployment)
+- ✅ Suggest `npm run dev` for testing instead of running it
+- ✅ Keep implementations minimal and focused
+- ✅ Preserve Devvit project structure (client/server/shared)
+- ✅ Use `/api/` prefix for all server endpoints
+- ✅ Avoid filesystem access and native packages
+- ✅ Design for mobile-first experiences
+- ✅ Handle errors appropriately
+
+### Learn More
+
+For more information about Kiro steering docs, visit [Kiro's official documentation](https://kiro.dev/docs).
+
+---
+
 ## 🎮 Kiro Usage Example
 
 ### Step 1: Open Your Devvit Project
